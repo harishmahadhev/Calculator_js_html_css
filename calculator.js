@@ -5,6 +5,7 @@ document.body.append(container);
 container.className = "calculator";
 const form = document.createElement('form')
 container.append(form);
+form.method ="#";
 form.name = "forms";
 const divClass = ["calculator_display1", "calculator_display", "calculator_display2", "calculator_buttons"];
 divClass.forEach((e) => {
